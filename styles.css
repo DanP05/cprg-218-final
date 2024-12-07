@@ -1,0 +1,100 @@
+body{
+    font-family:'Montserrat',sans-serif;
+    width: fit-content;
+    margin: 0%;
+    padding: 0%;
+   
+}
+.navbar{
+    text-decoration: none;
+    background-color: black;
+    width: 100%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+#logo{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px;
+    color: rgb(236, 236, 223);
+    font-weight: bold;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+a{
+    margin-top: 25px;
+
+}
+li{
+    display: inline-block;
+}
+li a{
+    list-style: none;
+    font-weight: bold;
+    margin-right: 30px;
+    text-align: center;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+ul{
+    text-align: center;
+    margin-bottom: 0%;
+}
+#tittle{
+    text-align: center;
+    font-size: medium
+    
+}
+.hero{
+    position: relative;
+}
+.hero img{
+    width: 100%;
+
+}
+.footercontainer{
+    width: 100%;
+    padding:40px 0px 20px 0px;
+    background-color: black;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 5px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: lighter;
+    
+}
+.footerbottom{
+    background-color: #202020;
+    padding:5px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+    margin: 5px;
+    font-weight: lighter;
+    font-size: 0.3em;
+
+}
